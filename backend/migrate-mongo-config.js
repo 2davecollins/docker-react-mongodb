@@ -4,7 +4,7 @@ module.exports = {
   mongodb: {
     url: db.url,
 
-    databaseName: "vidly",
+    databaseName: "sap",
 
     options: {
       useNewUrlParser: true, // removes a deprecation warning when connecting

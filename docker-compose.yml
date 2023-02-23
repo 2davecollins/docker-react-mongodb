@@ -15,7 +15,7 @@ services:
     ports: 
       - 3001:3001
     environment: 
-      DB_URL: mongodb://db/sap
+      DB_URL: mongodb://db/dockerreactmongodb
     command: ./docker-entrypoint.sh
 
   db:
@@ -23,7 +23,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - sap:/data/db
+      - dockerreactmongodb:/data/db
 
 volumes:
-  sap:
+  dockerreactmongodb:

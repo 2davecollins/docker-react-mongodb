@@ -1,5 +1,5 @@
 {
-  "name": "sap-backend",
+  "name": "dockerreactmongodb-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

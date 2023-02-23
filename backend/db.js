@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const dbUrl = process.env.DB_URL || "mongodb://localhost/sap";
+const dbUrl = process.env.DB_URL || "mongodb://localhost/dockerreactmongodb";
 
 const connect = async () => {
   await mongoose.connect(dbUrl, {
